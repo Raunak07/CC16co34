@@ -25,7 +25,7 @@ else if(arr1[i]=="+"||arr1[i]=="-"||arr1[i]=="*"||arr1[i]=="/"||arr1[i]=="%")
 cout<<arr1[i]<<" -> Arithmetic operator\n";
 else if(arr1[i]==">"||arr1[i]=="<"||arr1[i]=="<="||arr1[i]==">="||arr1[i]=="=="||arr1[i]=="!=")
 cout<<arr1[i]<<" -> Relational operator\n";
-else if(arr1[i]=="for"||arr1[i]=="while"||arr1[i]=="if"||arr1[i]=="do"||arr1[i]=="switch"||arr1[i]=="else")
+else if(arr1[i]=="for"||arr1[i]=="while"||arr1[i]=="if"||arr1[i]=="do"||arr1[i]=="switch"||arr1[i]=="else"||arr1[i]=="int")
 cout<<arr1[i]<<" -> Keyword\n";
 else if((arr1[i]>="a" && arr1[i]<="z")||(arr1[i]>="A" && arr1[i]<="Z"))
 cout<<arr1[i]<<" -> operand\n";
